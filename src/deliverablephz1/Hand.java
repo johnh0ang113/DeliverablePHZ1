@@ -4,9 +4,10 @@
  */
 package deliverablephz1;
 
-/**
- *
- * @author johnh
+/*
+ * Purpose: Have Player hands from 2 cards
+ * Date: September 4, 2025
+ * @author Phat Hoang & Zubayr
  */
 public class Hand {
     

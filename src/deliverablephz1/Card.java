@@ -4,9 +4,10 @@
  */
 package deliverablephz1;
 
-/**
- *
- * @author johnh
+/*
+ * Purpose: Hold enums of cards
+ * Date: September 4, 2025
+ * @author Phat Hoang & Zubayr
  */
 public class Card {
     

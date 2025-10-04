@@ -4,17 +4,15 @@
  */
 package deliverablephz1;
 
-/**
- *
- * @author johnh
+/*
+ * Purpose: To run BlackJack game
+ * Date: September 4, 2025
+ * @author Phat Hoang & Zubayr
  */
 public class BlackJack {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // gameStart();
+        gameStart();
     }
     
 }

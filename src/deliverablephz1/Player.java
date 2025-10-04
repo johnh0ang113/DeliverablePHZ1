@@ -4,9 +4,10 @@
  */
 package deliverablephz1;
 
-/**
- *
- * @author johnh
+/*
+ * Purpose: Hold information on players, thier name, hands, and score
+ * Date: September 4, 2025
+ * @author Phat Hoang & Zubayr
  */
 public class Player {
     

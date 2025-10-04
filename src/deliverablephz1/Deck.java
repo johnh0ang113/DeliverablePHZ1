@@ -4,9 +4,10 @@
  */
 package deliverablephz1;
 
-/**
- *
- * @author johnh
+/*
+ * Purpose: Create a deck of 52 cards, deal hand
+ * Date: September 4, 2025
+ * @author Phat Hoang & Zubayr
  */
 public class Deck {
     
