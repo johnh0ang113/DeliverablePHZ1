@@ -10,5 +10,27 @@ package deliverablephz1;
  * @author Phat Hoang & Zubayr
  */
 public class Player {
+    private String pName = "";
+    private int pScore = 0;
+    private Hand hand;
     
+    public Player(String pName){
+    this.pName = pName;
+    this.pScore = 0;
+    this.hand = new Hand();
+    }
+    
+    //getter
+    public String getName(){ return pName;}
+    public Hand getHand(){ return hand;}
+    
+    //add cards & points for player
+    public void addCard(Card card){
+        hand.addCard(card);
+    }
+    public void addScore(int score){
+        this.pScore += score;
+    }
+    
+    //functions to clear hand etc
 }

@@ -10,5 +10,8 @@ package deliverablephz1;
  * @author Phat Hoang & Zubayr
  */
 public class GameLogic {
-    
+    //funtions to add points
+    //functions to calculate values
+    //function to game start => deal card to all players 2 times
+    //                          gives player option to draw more cards?maybe
 }
