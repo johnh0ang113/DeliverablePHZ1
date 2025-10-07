@@ -13,8 +13,7 @@ import java.util.Scanner;
 public class GameLogic {
     //funtions to add points
     public void updatePlayerScore(Player p) {
-    int total = p.getHand().getValue(); 
-    p.addScore(total);                  
+    p.addScore(1);                  
 }
 
     //functions to calculate values
@@ -103,15 +102,18 @@ public class GameLogic {
     System.out.println("Dealer total: " + dealer.getHand().getValue());
 
     // Determine winner
-    if (player.getHand().getValue() > 21) {
-        System.out.println("Dealer wins!");
-    } else if (dealer.getHand().getValue() > 21 || player.getHand().getValue() > dealer.getHand().getValue()) {
-        System.out.println("Player wins!");
-    } else if (player.getHand().getValue() < dealer.getHand().getValue()) {
-        System.out.println("Dealer wins!");
-    } else {
-        System.out.println("It's a tie!");
-    }
+   if (isBusted(player)) {
+    System.out.println("Dealer wins!");
+    updatePlayerScore(dealer);
+} else if (isBusted(dealer) || calculateHandValue(player) > calculateHandValue(dealer)) {
+    System.out.println("Player wins!");
+    updatePlayerScore(player);
+} else if (calculateHandValue(player) < calculateHandValue(dealer)) {
+    System.out.println("Dealer wins!");
+    updatePlayerScore(dealer);
+} else {
+    System.out.println("It's a tie!");
+}
 }
 
 }
