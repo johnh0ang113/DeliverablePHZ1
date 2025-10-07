@@ -7,7 +7,7 @@ package deliverablephz1;
 /*
  * Purpose: Hold information on players, thier name, hands, and score
  * Date: September 4, 2025
- * @author Phat Hoang & Zubayr
+ * @author Phat Hoang & Zubayr & Alan
  */
 public class Player {
     private String pName = "";
@@ -33,4 +33,8 @@ public class Player {
     }
     
     //functions to clear hand etc
+    public void clearHand() {
+    this.hand = new Hand();  
+}
+
 }

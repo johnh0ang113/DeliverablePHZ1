@@ -8,7 +8,7 @@ import java.util.*;
 /*
  * Purpose: Create a deck of 52 cards, deal hand
  * Date: September 4, 2025
- * @author Phat Hoang & Zubayr
+ * @author Phat Hoang & Zubayr  & Alan
  */
 public class Deck {
     private List<Card> cards;

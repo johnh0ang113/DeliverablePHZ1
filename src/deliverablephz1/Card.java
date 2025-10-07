@@ -7,7 +7,7 @@ package deliverablephz1;
 /*
  * Purpose: Hold enums of cards
  * Date: September 4, 2025
- * @author Phat Hoang & Zubayr
+ * @author Phat Hoang & Zubayr  & Alan
  */
 public class Card {
     public enum Suit{HEARTS, DIAMONDS, CLUBS, SPADES}
