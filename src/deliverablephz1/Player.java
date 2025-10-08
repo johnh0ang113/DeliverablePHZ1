@@ -23,6 +23,7 @@ public class Player {
     //getter
     public String getName(){ return pName;}
     public Hand getHand(){ return hand;}
+    public int getScore() {return pScore;}
     
     //add cards & points for player
     public void addCard(Card card){
@@ -35,6 +36,8 @@ public class Player {
     //functions to clear hand etc
     public void clearHand() {
     this.hand = new Hand();  
-}
+    }
+    
+    
 
 }
