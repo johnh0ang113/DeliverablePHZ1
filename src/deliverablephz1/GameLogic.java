@@ -19,14 +19,17 @@ public class GameLogic {
 
     //functions to calculate values
     // Returns the total value of a player's hand
+    //Follows SRP
     public int calculateHandValue(Player p) {
         return p.getHand().getValue();
     }
     // Returns true if the player has busted
+    //Follows DRY
     public boolean isBusted(Player p) {
         return calculateHandValue(p) > 21;
     }
     // Returns true if the player has a BlackJack
+    //Follows DRY
     public boolean isBlackJack(Player p) {
         return p.getHand().getValue() == 21 && p.getHand().getCards().size() == 2;
     }
